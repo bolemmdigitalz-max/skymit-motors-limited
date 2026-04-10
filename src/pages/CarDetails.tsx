@@ -23,7 +23,7 @@ const CarDetails = () => {
     );
   }
 
-  const whatsappUrl = `https://wa.me/2347042783726?text=Hello%20const whatsappUrl = `https://wa.me/2347042783726?text=Hello%20Skymit%20Motors%2C%20I%27m%20interested%20in%20the%20${encodeURIComponent(car.year + " " + car.brand + " " + car.model)}%20(${formatPrice(car.price)}).`;%2C%20I%27m%20interested%20in%20the%20${encodeURIComponent(car.year + " " + car.brand + " " + car.model)}%20(${formatPrice(car.price)}).`;
+  const whatsappUrl = `https://wa.me/2347042783726?text=Hello%20Skymit%20Motors%2C%20I%27m%20interested%20in%20the%20${encodeURIComponent(car.year + " " + car.brand + " " + car.model)}%20(${formatPrice(car.price)}).`; = `https://wa.me/2347042783726?text=Hello%20Skymit%20Motors%2C%20I%27m%20interested%20in%20the%20${encodeURIComponent(car.year + " " + car.brand + " " + car.model)}%20(${formatPrice(car.price)}).`;%2C%20I%27m%20interested%20in%20the%20${encodeURIComponent(car.year + " " + car.brand + " " + car.model)}%20(${formatPrice(car.price)}).`;
 
   return (
     <div className="pt-20">
