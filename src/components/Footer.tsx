@@ -31,7 +31,7 @@ const Footer = () => (
           <div className="flex flex-col gap-3 text-sm text-muted-foreground">
             <div className="flex items-start gap-2"><MapPin className="w-4 h-4 text-primary mt-0.5 shrink-0" /> 32 Mobolaji Bank Anthony Way, Ikeja, Lagos</div>
             <div className="flex items-center gap-2"><Phone className="w-4 h-4 text-primary shrink-0" /> +234 704 278 3726</div>
-            <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-primary shrink-0" /> info@royalautos.ng</div>
+            <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-primary shrink-0" /> <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-primary shrink-0" /> info@skymitmotors.ng</div></div>
           </div>
         </div>
 
