@@ -10,7 +10,7 @@ const Footer = () => (
             <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
               <span className="text-primary-foreground font-display font-bold text-lg">S</span>
             </div>
-            <h3 className="text-foreground font-display text-xl font-bold"><h3 className="text-foreground font-display text-xl font-bold">Skymit Motors</h3>
+            <h3 className="text-foreground font-display text-xl font-bold">Skymit Motors</h3>
           </div>
           <p className="text-muted-foreground text-sm leading-relaxed">
             Lagos' premier luxury car dealership. We source the finest automobiles for Nigeria's most discerning clients.
