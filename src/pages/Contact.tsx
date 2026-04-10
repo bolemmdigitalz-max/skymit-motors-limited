@@ -106,7 +106,7 @@ const Contact = () => {
                 style={{ border: 0, filter: "invert(90%) hue-rotate(180deg)" }}
                 allowFullScreen
                 loading="lazy"
-                title="Royal Autos Location"
+                title="Skymit Motors Location"
               />
             </div>
           </div>
