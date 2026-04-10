@@ -18,10 +18,10 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between h-20">
         <Link to="/" className="flex items-center gap-2">
           <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-display font-bold text-lg">R</span>
+            <span className="text-primary-foreground font-display font-bold text-lg">S</span>
           </div>
           <div>
-            <h1 className="text-foreground font-display text-xl font-bold leading-tight">Royal Autos</h1>
+            <h1 className="text-foreground font-display text-xl font-bold leading-tight">Skymit Motors</h1>
             <p className="text-muted-foreground text-[10px] tracking-[0.2em] uppercase">Lagos, Nigeria</p>
           </div>
         </Link>

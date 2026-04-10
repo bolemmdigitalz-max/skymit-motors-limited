@@ -8,9 +8,9 @@ const Footer = () => (
         <div>
           <div className="flex items-center gap-2 mb-4">
             <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-display font-bold text-lg">R</span>
+              <span className="text-primary-foreground font-display font-bold text-lg">S</span>
             </div>
-            <h3 className="text-foreground font-display text-xl font-bold">Royal Autos</h3>
+            <h3 className="text-foreground font-display text-xl font-bold">Skymit Motors</h3>
           </div>
           <p className="text-muted-foreground text-sm leading-relaxed">
             Lagos' premier luxury car dealership. We source the finest automobiles for Nigeria's most discerning clients.
@@ -31,7 +31,7 @@ const Footer = () => (
           <div className="flex flex-col gap-3 text-sm text-muted-foreground">
             <div className="flex items-start gap-2"><MapPin className="w-4 h-4 text-primary mt-0.5 shrink-0" /> 32 Mobolaji Bank Anthony Way, Ikeja, Lagos</div>
             <div className="flex items-center gap-2"><Phone className="w-4 h-4 text-primary shrink-0" /> +234 704 278 3726</div>
-            <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-primary shrink-0" /> info@royalautos.ng</div>
+            <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-primary shrink-0" /> <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-primary shrink-0" /> info@skymitmotors.ng</div></div>
           </div>
         </div>
 
@@ -46,7 +46,7 @@ const Footer = () => (
       </div>
 
       <div className="border-t border-border mt-12 pt-8 text-center">
-        <p className="text-muted-foreground text-sm">© {new Date().getFullYear()} Royal Autos Ltd. All rights reserved.</p>
+        <p className="text-muted-foreground text-sm">© {new Date().getFullYear()} <p className="text-muted-foreground text-sm">© {new Date().getFullYear()} Skymit Motors Limited. All rights reserved.</p></p>
       </div>
     </div>
   </footer>

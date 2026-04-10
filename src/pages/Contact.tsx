@@ -72,7 +72,7 @@ const Contact = () => {
               {[
                 { icon: MapPin, label: "Address", value: "32 Mobolaji Bank Anthony Way, Opebi, Ikeja 101233, Lagos" },
                 { icon: Phone, label: "Phone", value: "+234 704 278 3726" },
-                { icon: Mail, label: "Email", value: "info@royalautos.ng" },
+                { icon: Mail, label: "Email", value: "info@skymitmotors.ng" },
                 { icon: Clock, label: "Hours", value: "Mon-Fri: 9AM-6PM · Sat: 10AM-4PM" },
               ].map((i) => (
                 <div key={i.label} className="flex items-start gap-4 p-4 rounded-lg bg-card border border-border">
@@ -88,7 +88,7 @@ const Contact = () => {
             </div>
 
             <a
-              href="https://wa.me/2347042783726?text=Hello%20Royal%20Autos%2C%20I%27d%20like%20to%20inquire%20about%20your%20vehicles."
+              href="https://wa.me/2347042783726?text=Hello%20Skymit%20Motors%2C%20I%27d%20like%20to%20inquire%20about%20your%20vehicles."
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -106,7 +106,7 @@ const Contact = () => {
                 style={{ border: 0, filter: "invert(90%) hue-rotate(180deg)" }}
                 allowFullScreen
                 loading="lazy"
-                title="Royal Autos Location"
+                title="Skymit Motors Location"
               />
             </div>
           </div>
